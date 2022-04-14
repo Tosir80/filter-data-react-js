@@ -39,13 +39,13 @@
 
 body{
 
-  color:white ;
+  color:rgb(22, 231, 18) ;
   font-weight: 700;
   font-family: 'Courier New', Courier, monospace;
 }
 
 
-.menu_container{
+.item-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2px;
@@ -55,4 +55,21 @@ body{
 .single_item{
   background-color: rgb(103, 68, 21);
   width: 80%;
+}
+
+.btn{
+  display: flex;
+  justify-content:center;
+  gap:5px;
+ 
+}
+
+.btn-sing{
+  background:rgb(13, 34, 141);
+  color:white ;
+  margin:5px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  
 }
